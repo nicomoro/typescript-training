@@ -36,7 +36,7 @@ describe('let declarations', () => {
       for (let i = 0; i < 10; i++) {
         // empty loop content
       }
-      return i
+      return i;
     }
 
     expect(doLoop).toThrow()

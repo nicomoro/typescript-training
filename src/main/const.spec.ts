@@ -19,6 +19,6 @@ describe('const declarations', () => {
     
     const myFn=()=>{return 'training'}
     expect(myFn()).toEqual('training')
-  }
+  })
 
 })
