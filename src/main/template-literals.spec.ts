@@ -65,7 +65,6 @@ describe('Template literals', () => {
     // Using tagged template strings, write journey function
     // that will accept following 3 template strings
     // and return a string describing the journey
-    let journey: any;
     function journey(a: string, b: string, c: string){
         return `${a}, then ${b} and finally ${c}!`
     }
